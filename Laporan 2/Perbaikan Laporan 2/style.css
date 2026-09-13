@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8fa;
+    color: #5c4b50;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 22px 8%;
+
+    background: #fff8fa;
+}
+
+header h2 {
+    color: #c46f89;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: #6d5a60;
+
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #c46f89;
+}
+
+
+/* ================= HOME ================= */
+
+.home {
+    min-height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 10%;
+}
+
+.home-text {
+    max-width: 550px;
+}
+
+.hello {
+    color: #c46f89;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+.home h1 {
+    font-size: 48px;
+
+    color: #493d41;
+
+    margin-bottom: 15px;
+}
+
+.home h3 {
+    color: #b4627b;
+
+    font-weight: normal;
+
+    margin-bottom: 7px;
+}
+
+.campus {
+    color: #8c6c76;
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+}
+
+.description {
+    line-height: 1.7;
+
+    color: #786970;
+
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+
+    background: #d58aa0;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 22px;
+
+    border-radius: 20px;
+}
+
+.button:hover {
+    background: #bd6d86;
+}
+
+
+/* ================= FOTO ================= */
+
+.photo {
+    width: 300px;
+    height: 300px;
+
+    background: #f5d9e1;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.photo img {
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 7px solid white;
+}
+
+
+/* ================= SECTION ================= */
+
+section {
+    padding: 90px 10%;
+}
+
+.title {
+    color: #c46f89;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+section h2 {
+    font-size: 35px;
+
+    color: #493d41;
+
+    margin-bottom: 35px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    background: #fcecf1;
+}
+
+.about-box {
+    display: flex;
+
+    gap: 50px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text p {
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+}
+
+.biodata {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+    flex: 1;
+}
+
+.biodata p {
+    background: white;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+.biodata b {
+    color: #c46f89;
+}
+
+
+/* ================= SKILLS ================= */
+
+.skills {
+    text-align: center;
+}
+
+.skill-description {
+    max-width: 500px;
+
+    margin: 0 auto 35px;
+
+    line-height: 1.7;
+
+    color: #786970;
+}
+
+.skill-container {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+}
+
+.skill-box {
+    width: 200px;
+
+    background: white;
+
+    padding: 25px 18px;
+
+    border: 1px solid #f0d5dd;
+
+    border-radius: 15px;
+}
+
+.skill-box h3 {
+    color: #b7627b;
+
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    color: #786970;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+    text-align: center;
+
+    background: #fcecf1;
+}
+
+.contact > p:not(.title) {
+    max-width: 450px;
+
+    margin: 0 auto 25px;
+
+    line-height: 1.7;
+}
+
+.instagram {
+    display: inline-block;
+
+    background: #c46f89;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 20px;
+}
+
+.instagram:hover {
+    background: #ad5a73;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    background: #f5d9e1;
+
+    color: #6d5a60;
+
+    font-size: 13px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        gap: 40px;
+    }
+
+    .home h1 {
+        font-size: 38px;
+    }
+
+    .photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .photo img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+
+    .biodata {
+        width: 100%;
+    }
+
+    section {
+        padding: 70px 20px;
+    }
+
+}

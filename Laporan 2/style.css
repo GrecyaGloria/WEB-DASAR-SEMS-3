@@ -1,0 +1,65 @@
+/* Styling Umum Halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Styling Daftar Keahlian */
+ul {
+    margin-bottom: 20px;
+    color: maroon;
+}
+
+/* Styling Bagian Foto & Tautan */
+.foto-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.foto-profil {
+    max-width: 200px;
+    height: auto;
+}
+
+.caption-foto {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling Judul Section */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Styling Tabel Riwayat Pendidikan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+/* Styling Footer */
+footer {
+    text-align: center;
+    background-color: #c090a0; /* Warna pink/dusk sesuai gambar */
+    color: #000;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 14px;
+}
